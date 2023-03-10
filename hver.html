@@ -1,0 +1,74 @@
+<template>
+  <lightning-card>
+  <div>
+  <div class="flex" onmouseleave={leaveHandler}>
+    <ul class="page"> 
+    <li class="page__btn"><lightning-icon icon-name='utility:chevronleft' alternative-text='chevronleft' size='x-small' title='chevronleft'  class="my-icon"></lightning-icon></li>
+ 
+      <li onmouseover={hoverHandler} onclick={selectHandler} value="1">Wed,15 Feb</li>
+      <li onmouseover={hoverHandler}  onclick={selectHandler} value="2">Thu,16 Feb</li>
+      <li onmouseover={hoverHandler}  onclick={selectHandler} value="3">Fri,17 Feb</li>
+      <li onmouseover={hoverHandler}  onclick={selectHandler} value="4">Sat,18 Feb</li>
+      <li onmouseover={hoverHandler}  onclick={selectHandler} value="5">Mon,20 Feb</li>
+  <li onmouseover={hoverHandler} value="6">TUE,21 Feb</li> 
+      <li class="page__btn"><lightning-icon icon-name='utility:chevronright' alternative-text='chevronright' size='x-small' title='chevronright'  class="my-icon"></lightning-icon></li>
+ 
+      <div class={className} ></div>
+    </ul>
+  </div>
+</div>
+<div class="slds-grid slds-gutters slds-p-around_large">
+  <div class="slds-col slds-size_1-of-4">
+    <span>Morning</span>
+  </div>
+  <div class="slds-col slds-size_3-of-4">
+    <div class="colA">
+ 
+    <div class="col-1  slds-align_absolute-center" ><div>10:30 AM</div></div>
+
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer;width:fit-content">10:45 AM</div>
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer">11:00 AM-11:15 AM</div>
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer" >11:15 AM-11:30 AM</div>
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer">11:30 AM-11:45 AM</div>
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer">11:45 AM-12:00 PM</div>
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer">12:00 PM-12:15 PM</div>
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer">12:15 PM-12:30 PM</div>
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer">12:30 PM-12:45 PM</div>
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer">01:00 PM-01:15 PM</div>
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer">01:30 PM-01:45 PM</div>
+      <div class="col-1  slds-align_absolute-center"  onclick={bookingHandler} style="cursor:pointer">01:45 PM-02:00 PM</div>
+  </div>
+
+</div>
+
+</div>
+<div class="line slds-align_absolute-center"></div>
+
+<div class="slds-grid slds-gutters slds-p-around_large">
+  <div class="slds-col slds-size_1-of-4">
+    <span>Evening</span>
+  </div>
+  <div class="slds-col slds-size_3-of-4">
+    <div class="colA">
+ 
+    <div class="col-1  slds-align_absolute-center" ><div>10:30 AM</div></div>
+
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer;width:fit-content">10:45 AM</div>
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer">11:00 AM-11:15 AM</div>
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer" >11:15 AM-11:30 AM</div>
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer">11:30 AM-11:45 AM</div>
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer">11:45 AM-12:00 PM</div>
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer">12:00 PM-12:15 PM</div>
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer">12:15 PM-12:30 PM</div>
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer">12:30 PM-12:45 PM</div>
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer">01:00 PM-01:15 PM</div>
+      <div class="col-1  slds-align_absolute-center" onclick={bookingHandler} style="cursor:pointer">01:30 PM-01:45 PM</div>
+      <div class="col-1  slds-align_absolute-center"  onclick={bookingHandler} style="cursor:pointer">01:45 PM-02:00 PM</div>
+  </div>
+
+</div>
+
+</div>
+
+</lightning-card>
+</template>

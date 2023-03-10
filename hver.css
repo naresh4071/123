@@ -1,0 +1,155 @@
+.flex {
+	width: 70vw;
+	height: auto;
+	line-height: 60px;
+/* 	background-color: white;
+ */	position:relative;
+	top: 50%;
+	left: 40%;
+	margin: -25px 0 0 -25vw;
+  border-radius: 40px;
+}
+	ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+   
+    border-radius: 0.6rem;
+    background: #ffffff;
+    box-shadow: 0 0.8rem 2rem rgba(#5a6181, 0.05);
+  }
+  
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  
+  border-radius: 0.6rem;
+  background: #ffffff;
+  box-shadow: 0 0.8rem 2rem rgba(#5a6181, 0.05);
+}
+.colA {
+      
+display: flex;
+flex-wrap: wrap;
+}
+.line{
+	width: 80%;
+	height: 47px;
+	border-bottom: 1px solid #EDF1D6;
+	position: relative;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 10px 15px;
+	}
+
+
+.col-1 {
+	
+
+/* 	flex-basis: 20%;  
+ */	background-color: #ffffff;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+ /*  width: 200px; */
+
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 10px 15px;
+ 
+	
+}
+.col-1:hover {
+	box-shadow: #AAE3E2 0px 8px 24px;
+}
+		li {
+			flex: 1;
+			list-style: none;
+			text-align: center;
+			position: relative;
+			font-size: 1.0rem;
+			/* font-weight: bold; */
+			transition: 0.5s ease;
+			cursor: pointer;
+			user-select: none;
+    }
+    .page__btn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0.8rem;
+      font-size: 1.0rem;
+      cursor: pointer;
+    }
+    .my-icon {
+      --sds-c-icon-color-foreground-default:mediumaquamarine;
+     /*  --sds-c-icon-color-background: gray; */
+    }
+    li:hover {
+				background-color: rgba(white, 0.25);
+				color: mediumaquamarine;
+				
+
+        
+			
+			}
+		
+		 
+		.bar1 {
+			width: 12.5%;
+			background-color: mediumaquamarine;
+			height: 5px;
+			position: absolute;
+			left: 14%;
+			bottom: 0;
+			transition: 0.5s ease;
+		}
+    .bar2 {
+			width:12.5%;
+			background-color:  mediumaquamarine;
+			height: 5px;
+			position: absolute;
+			left: 25%;
+			bottom: 0;
+			transition: 0.5s ease;
+		}
+    .bar3 {
+			width:12.5%;
+			background-color: mediumaquamarine;
+			height: 5px;
+			position: absolute;
+			left: 37.5%;
+			bottom: 0;
+			transition: 0.5s ease;
+		}
+    .bar4{
+			width:12.5%;
+			background-color: mediumaquamarine;
+			height: 5px;
+			position: absolute;
+			left: 50%;
+			bottom: 0;
+			transition: 0.5s ease;
+		}
+    .bar5 {
+			width:  12.5%;
+			background-color:  mediumaquamarine;
+			height: 5px;
+			position: absolute;
+			left: 62.5%;
+			bottom: 0;
+			transition: 0.5s ease;
+		}
+    .bar6 {
+			width:  12.5%;
+			background-color:  mediumaquamarine;
+			height: 5px;
+			position: absolute;
+			left: 75%;
+			bottom: 0;
+			transition: 0.5s ease;
+		}
+	
+
+
